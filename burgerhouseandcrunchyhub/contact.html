@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact & Location — The Burger House & Crunchy Hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<div id="loader">
+  <div class="loader-logo">FIND US</div>
+  <div class="loader-sub">We're Waiting for You</div>
+  <div class="loader-bar"><div class="loader-fill"></div></div>
+</div>
+
+<!-- Page Hero -->
+<div class="menu-hero">
+  <div class="section-label" style="justify-content:center;">We'd Love to See You</div>
+  <h1 class="section-title" style="text-align:center;font-size:clamp(3rem,7vw,6rem);">Find Us</h1>
+  <p style="color:var(--text-muted);text-align:center;max-width:500px;margin:.75rem auto 0;font-size:.95rem;">Whether you're coming for dine-in, takeaway, or a reservation — we're here and ready to serve.</p>
+</div>
+
+<!-- Contact Grid -->
+<section class="section" style="padding-top:2.5rem;">
+  <div class="contact-grid">
+
+    <!-- Left: Info -->
+    <div class="contact-info">
+
+      <div>
+        <div class="section-label">Get in Touch</div>
+        <h2 class="section-title" style="font-size:clamp(2rem,4vw,3rem);">Visit Us Today</h2>
+      </div>
+
+      <div class="contact-block fade-in">
+        <div class="contact-icon">📍</div>
+        <div>
+          <div class="contact-block-title">Address</div>
+          <div class="contact-block-val">
+            The Burger House &amp; Crunchy Hub<br>
+            Thamel, Kathmandu, Bagmati Province<br>
+            Nepal — 44600
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-block fade-in fade-in-delay-1">
+        <div class="contact-icon">📞</div>
+        <div>
+          <div class="contact-block-title">Phone</div>
+          <div class="contact-block-val">
+            <a href="tel:+97714444555" style="color:var(--neon-orange);">+977 1 4444 555</a><br>
+            <a href="tel:+9779800000001" style="color:var(--text-muted);">+977 980 000 0001</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-block fade-in fade-in-delay-2">
+        <div class="contact-icon">✉️</div>
+        <div>
+          <div class="contact-block-title">Email</div>
+          <div class="contact-block-val">
+            <a href="mailto:hello@burgerhouse.np" style="color:var(--neon-orange);">hello@burgerhouse.np</a><br>
+            <a href="mailto:reservations@burgerhouse.np" style="color:var(--text-muted);">reservations@burgerhouse.np</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hours -->
+      <div class="fade-in">
+        <div class="contact-block-title" style="font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--text-muted);margin-bottom:.75rem;">Opening Hours</div>
+        <table class="hours-table">
+          <tr>
+            <td>Monday – Friday</td>
+            <td>11:00 AM – 11:00 PM <span class="open-now">Open Now</span></td>
+          </tr>
+          <tr>
+            <td>Saturday</td>
+            <td>10:00 AM – 12:00 AM</td>
+          </tr>
+          <tr>
+            <td>Sunday</td>
+            <td>10:00 AM – 12:00 AM</td>
+          </tr>
+          <tr>
+            <td>Public Holidays</td>
+            <td>12:00 PM – 10:00 PM</td>
+          </tr>
+        </table>
+      </div>
+
+      <!-- Map -->
+      <div class="map-embed fade-in">
+        <!-- Embedded Google Maps for Thamel, Kathmandu -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.7234!2d85.3095!3d27.7172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb18fcb77fd4bd%3A0x58099b1d7f39c1c8!2sThamel%2C%20Kathmandu%2044600%2C%20Nepal!5e0!3m2!1sen!2sus!4v1234567890!5m2!1sen!2sus"
+          allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="The Burger House Location Map"
+          style="filter:invert(90%) hue-rotate(180deg);">
+        </iframe>
+      </div>
+
+    </div><!-- /contact-info -->
+
+    <!-- Right: Form -->
+    <div class="fade-in fade-in-delay-1">
+      <div style="background:var(--dark-card);border:1px solid var(--dark-border);border-radius:var(--radius-lg);padding:2.5rem;">
+        <div class="section-label">Send a Message</div>
+        <h3 style="font-family:var(--font-display);font-size:2rem;letter-spacing:.03em;margin-bottom:.5rem;">We'd Love<br>to Hear From You</h3>
+        <p style="font-size:.85rem;color:var(--text-muted);margin-bottom:2rem;line-height:1.7;">Questions about reservations, events, dietary requirements, or just want to say hello — drop us a message and we'll get back to you within 24 hours.</p>
+
+        <form class="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">First Name</label>
+              <input type="text" class="form-input" placeholder="Rohan" required/>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Last Name</label>
+              <input type="text" class="form-input" placeholder="Maharjan" required/>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email Address</label>
+            <input type="email" class="form-input" placeholder="rohan@example.com" required/>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Phone (Optional)</label>
+            <input type="tel" class="form-input" placeholder="+977 980 000 0001"/>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Subject</label>
+            <input type="text" class="form-input" placeholder="Table reservation for 4 on Saturday..."/>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Message</label>
+            <textarea class="form-textarea" placeholder="Tell us how we can help you..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary" style="width:100%;justify-content:center;">
+            <span>✉️</span> Send Message
+          </button>
+        </form>
+      </div>
+
+      <!-- Social + Delivery -->
+      <div style="margin-top:1.5rem;background:var(--dark-card);border:1px solid var(--dark-border);border-radius:var(--radius-lg);padding:1.75rem;">
+        <div class="contact-block-title" style="font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--text-muted);margin-bottom:1.25rem;">Order Delivery Via</div>
+        <div style="display:flex;gap:1rem;flex-wrap:wrap;">
+          <a href="#" style="display:flex;align-items:center;gap:.5rem;background:rgba(255,107,0,0.1);border:1px solid rgba(255,107,0,0.2);border-radius:8px;padding:.6rem 1rem;font-size:.8rem;font-weight:600;color:var(--neon-orange);transition:all .3s;" onmouseover="this.style.background='rgba(255,107,0,0.2)'" onmouseout="this.style.background='rgba(255,107,0,0.1)'">🛵 Foodmandu</a>
+          <a href="#" style="display:flex;align-items:center;gap:.5rem;background:rgba(255,107,0,0.1);border:1px solid rgba(255,107,0,0.2);border-radius:8px;padding:.6rem 1rem;font-size:.8rem;font-weight:600;color:var(--neon-orange);transition:all .3s;" onmouseover="this.style.background='rgba(255,107,0,0.2)'" onmouseout="this.style.background='rgba(255,107,0,0.1)'">🛵 Bhojdeals</a>
+          <a href="#" style="display:flex;align-items:center;gap:.5rem;background:rgba(255,107,0,0.1);border:1px solid rgba(255,107,0,0.2);border-radius:8px;padding:.6rem 1rem;font-size:.8rem;font-weight:600;color:var(--neon-orange);transition:all .3s;" onmouseover="this.style.background='rgba(255,107,0,0.2)'" onmouseout="this.style.background='rgba(255,107,0,0.1)'">🛵 Direct Call</a>
+        </div>
+        <div style="margin-top:1.5rem;">
+          <div class="contact-block-title" style="font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--text-muted);margin-bottom:1rem;">Follow Our Journey</div>
+          <div style="display:flex;gap:.75rem;">
+            <a href="#" class="social-link" aria-label="Instagram">📸</a>
+            <a href="#" class="social-link" aria-label="Facebook">📘</a>
+            <a href="#" class="social-link" aria-label="TikTok">🎵</a>
+            <a href="#" class="social-link" aria-label="YouTube">▶️</a>
+          </div>
+        </div>
+      </div>
+    </div><!-- /form column -->
+
+  </div>
+</section>
+
+<!-- Mini CTA -->
+<section class="section" style="padding-top:0;">
+  <div class="cta-banner fade-in">
+    <div class="cta-banner-title">Large Group? 🎉</div>
+    <div class="cta-banner-sub">We cater events, birthdays, and corporate lunches. Call us to discuss your requirements and get a custom menu.</div>
+    <div class="cta-btns">
+      <a href="tel:+97714444555" class="btn-primary">📞 Call Now</a>
+      <a href="specials.html" class="btn-outline">View Menu</a>
+    </div>
+  </div>
+</section>
+
+<script src="partials.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
